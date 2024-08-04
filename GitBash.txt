@@ -1,0 +1,125 @@
+KIIT@BT-2105106 MINGW64 ~
+$ cd C:\Users\KIIT\Desktop\Pattern Problems
+bash: cd: too many arguments
+
+KIIT@BT-2105106 MINGW64 ~
+$ cd Desktop
+
+KIIT@BT-2105106 MINGW64 ~/Desktop (main)
+$ cd C:\Users\KIIT\Desktop\Pattern Problems
+bash: cd: too many arguments
+
+KIIT@BT-2105106 MINGW64 ~/Desktop (main)
+$ cd Users
+bash: cd: Users: No such file or directory
+
+KIIT@BT-2105106 MINGW64 ~/Desktop (main)
+$ cd KIIT
+bash: cd: KIIT: No such file or directory
+
+KIIT@BT-2105106 MINGW64 ~/Desktop (main)
+$ cd Pattern Problems
+bash: cd: too many arguments
+
+KIIT@BT-2105106 MINGW64 ~/Desktop (main)
+$
+
+KIIT@BT-2105106 MINGW64 ~/Desktop (main)
+$ cd Pattern
+bash: cd: Pattern: No such file or directory
+
+KIIT@BT-2105106 MINGW64 ~/Desktop (main)
+$ cd Pattern_Problems
+
+KIIT@BT-2105106 MINGW64 ~/Desktop/Pattern_Problems (main)
+$ git init
+Initialized empty Git repository in C:/Users/KIIT/Desktop/Pattern_Problems/.git/
+
+KIIT@BT-2105106 MINGW64 ~/Desktop/Pattern_Problems (main)
+$ git add .
+
+KIIT@BT-2105106 MINGW64 ~/Desktop/Pattern_Problems (main)
+$ git commit -m "Pattern_Problems directory created"
+On branch main
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+KIIT@BT-2105106 MINGW64 ~/Desktop/Pattern_Problems (main)
+$ git remote add origin https://github.com/Ankita-lal/PatternProblems.git
+
+KIIT@BT-2105106 MINGW64 ~/Desktop/Pattern_Problems (main)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/Ankita-lal/PatternProblems.git'
+
+KIIT@BT-2105106 MINGW64 ~/Desktop/Pattern_Problems (main)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Ankita-lal/PatternProblems.git'
+
+KIIT@BT-2105106 MINGW64 ~/Desktop/Pattern_Problems (main)
+$ git remote add origin https://github.com/Ankita-lal/Pattern-Problems.git
+error: remote origin already exists.
+
+KIIT@BT-2105106 MINGW64 ~/Desktop/Pattern_Problems (main)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/Ankita-lal/PatternProblems.git'
+
+KIIT@BT-2105106 MINGW64 ~/Desktop/Pattern_Problems (main)
+$ git remote add origin https://github.com/Ankita-lal/Pattern-Problems.git
+error: remote origin already exists.
+
+KIIT@BT-2105106 MINGW64 ~/Desktop/Pattern_Problems (main)
+$ git remote -v
+origin  https://github.com/Ankita-lal/PatternProblems.git (fetch)
+origin  https://github.com/Ankita-lal/PatternProblems.git (push)
+
+KIIT@BT-2105106 MINGW64 ~/Desktop/Pattern_Problems (main)
+$ git  remote remove origin
+
+KIIT@BT-2105106 MINGW64 ~/Desktop/Pattern_Problems (main)
+$ git remote add origin https://github.com/Ankita-lal/Pattern-Problems.git
+
+KIIT@BT-2105106 MINGW64 ~/Desktop/Pattern_Problems (main)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/Ankita-lal/Pattern-Problems.git'
+
+KIIT@BT-2105106 MINGW64 ~/Desktop/Pattern_Problems (main)
+$ touch Pattern1.txt
+
+KIIT@BT-2105106 MINGW64 ~/Desktop/Pattern_Problems (main)
+$ git add .
+
+KIIT@BT-2105106 MINGW64 ~/Desktop/Pattern_Problems (main)
+$ git commit -m "Pattern1 file created"
+[main (root-commit) 8947ebd] Pattern1 file created
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Pattern1.txt
+
+KIIT@BT-2105106 MINGW64 ~/Desktop/Pattern_Problems (main)
+$ git add .
+
+KIIT@BT-2105106 MINGW64 ~/Desktop/Pattern_Problems (main)
+$ git commit -m "Pattern1 is updated with problem statement"
+[main 53941ee] Pattern1 is updated with problem statement
+ 1 file changed, 24 insertions(+)
+
+KIIT@BT-2105106 MINGW64 ~/Desktop/Pattern_Problems (main)
+$ touch Pattern1Sol.cpp
+
+KIIT@BT-2105106 MINGW64 ~/Desktop/Pattern_Problems (main)
+$ git add .
+
+KIIT@BT-2105106 MINGW64 ~/Desktop/Pattern_Problems (main)
+$ git commit -m "Pattern1Sol.cpp is updated with solution"
+[main 983bdf5] Pattern1Sol.cpp is updated with solution
+ 2 files changed, 44 insertions(+)
+ create mode 100644 Pattern1Sol.cpp
+ create mode 100644 Pattern1Sol.exe
+
+KIIT@BT-2105106 MINGW64 ~/Desktop/Pattern_Problems (main)
+
