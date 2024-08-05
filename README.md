@@ -1,2 +1,2 @@
 # Pattern-Problems
-Solution of all the pattern problems in cpp.
+Solution of some of the most important pattern problems in cpp.
